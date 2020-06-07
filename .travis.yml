@@ -21,7 +21,8 @@ cache:
         - $HOME/.cache/rebar3
         - apps/xprof_gui/priv/node_modules
 install:
-    - ./rebar3 deps
+    - rebar3 --version
+    - rebar3 deps
     - nvm install 8.11.1 && nvm use 8.11.1
     - make bootstrap_front_end
 script:
