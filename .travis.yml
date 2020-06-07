@@ -20,9 +20,11 @@ cache:
     directories:
         - $HOME/.cache/rebar3
         - apps/xprof_gui/priv/node_modules
+before_install:
+    - curl -O -L https://s3.amazonaws.com/rebar3/rebar3 && chmod +x ./rebar3
 install:
-    - rebar3 --version
-    - rebar3 deps
+    - ./rebar3 --version
+    - ./rebar3 deps
     - nvm install 8.11.1 && nvm use 8.11.1
     - make bootstrap_front_end
 script:
