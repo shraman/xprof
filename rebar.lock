@@ -1,5 +1,5 @@
 {"1.1.0",
-[{<<"cowboy">>,{pkg,<<"cowboy">>,<<"1.1.2">>},0},
+[{<<"cowboy">>,{pkg,<<"cowboy">>,<<"2.7.0">>},0},
  {<<"cowlib">>,{pkg,<<"cowlib">>,<<"1.0.2">>},1},
  {<<"customized_hdr_histogram">>,
   {pkg,<<"customized_hdr_histogram">>,<<"0.3.2">>},
