@@ -5,7 +5,7 @@
   {pkg,<<"customized_hdr_histogram">>,<<"0.3.2">>},
   0},
  {<<"goldrush">>,{pkg,<<"goldrush">>,<<"0.1.9">>},1},
- {<<"jsone">>,{pkg,<<"jsone">>,<<"1.3.1">>},0},
+ {<<"jsone">>,{pkg,<<"jsone">>,<<"1.4.7">>},0},
  {<<"lager">>,{pkg,<<"lager">>,<<"3.6.5">>},0},
  {<<"ranch">>,{pkg,<<"ranch">>,<<"1.3.2">>},1}]}.
 [
